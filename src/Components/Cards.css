@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+.card{
+    
+    width: 210px;
+    height: 320px;
+    background-color: black;
+    border-radius: 20px;
+    margin: 25px;
+    box-shadow: 10px 10px 8px 10px #ededed;
+    
+   
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+.container .card:hover {
+        filter: blur(0px);
+        transform: scale(1.1); 
+        opacity:1 ;
+       
+    
+}

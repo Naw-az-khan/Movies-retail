@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    
+}
+.pad{
+    height: 65px;
+    padding: 20px;
+    font-family: Abel, sans-serif;
+}
